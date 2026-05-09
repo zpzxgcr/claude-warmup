@@ -2,9 +2,9 @@ name: Claude Code Warmup
 
 on:
   schedule:
-    - cron: '15 22 * * 0-4'
-    - cron: '30 22 * * 0-4'
-    - cron: '45 22 * * 0-4'
+    - cron: '15 22 * * *'
+    - cron: '30 22 * * *'
+    - cron: '45 22 * * *'
   workflow_dispatch: {}
 
 jobs:
